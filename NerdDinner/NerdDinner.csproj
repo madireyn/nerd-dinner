@@ -201,13 +201,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201807112223229_country.cs" />
-    <Compile Include="Migrations\201807112223229_country.Designer.cs">
-      <DependentUpon>201807112223229_country.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\201807121457351_initial.cs" />
     <Compile Include="Migrations\201807121457351_initial.Designer.cs">
       <DependentUpon>201807121457351_initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201807121839412_validations.cs" />
+    <Compile Include="Migrations\201807121839412_validations.Designer.cs">
+      <DependentUpon>201807121839412_validations.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -298,11 +298,11 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201807112223229_country.resx">
-      <DependentUpon>201807112223229_country.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201807121457351_initial.resx">
       <DependentUpon>201807121457351_initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807121839412_validations.resx">
+      <DependentUpon>201807121839412_validations.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

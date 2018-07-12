@@ -12,6 +12,5 @@ namespace NerdDinner.Models
     {
         public DbSet<Dinner> Dinners { get; set; }
         public DbSet<Dinner.RSVP> RSVPs { get; set; }
-
     }
 }

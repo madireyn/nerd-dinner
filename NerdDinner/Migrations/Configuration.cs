@@ -9,7 +9,7 @@ namespace NerdDinner.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = true;
+            AutomaticMigrationsEnabled = false;
         }
 
         protected override void Seed(NerdDinner.Models.ApplicationDbContext context)
